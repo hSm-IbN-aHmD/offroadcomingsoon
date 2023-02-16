@@ -627,6 +627,15 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 10px;
+}
+
+.col-md-44{
+  position: relative;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
 .col {
@@ -1166,6 +1175,13 @@ pre code {
     max-width: 25%;
   }
   .col-md-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-md-44 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.33333%;
         -ms-flex: 0 0 33.33333%;
@@ -11449,7 +11465,7 @@ textarea.form-control {
   position: relative;
   height: 70vh;
   min-height: 500px;
-  background: url(../imgs/contract.jpg) no-repeat center center fixed;
+  background: url(../imgs/contract-crp.jpeg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
